@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 4, 2017, 6:27:24 PM
+    Author     : Ashan Tharuka
+*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+img{
+    margin:0 auto!important;  
+    margin-top:5%!important;
+}
+h2{
+    margin:0 auto!important;
+    background: linear-gradient(to top, #66ccff 0%, #0066ff 87%);
+    font-size: 70px;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    position: relative!important;
+    margin-left: 45%!important;
+    margin-top: 100px!important;
+     
+}
+

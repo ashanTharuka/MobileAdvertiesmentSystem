@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 20, 2017, 4:50:46 AM
+    Author     : Ashan Tharuka
+*/
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+.modal-content{
+    border-radius: 0px!important;
+}
+
+.modal-title{
+    text-align: center!important;
+    color: red!important;
+    font-family: 'Lobster', cursive;
+    font-size: 30px!important;
+}
+
+.modal-body img{
+    margin: 0 auto!important;
+    width:20%!important;
+    padding-bottom: 0%;
+}
+
+.modal-body  button{
+
+    border-radius: 0!important;
+    width: 100%!important;
+    font-family: 'Heebo', sans-serif;
+}
+.modal-body form input{
+    border-radius: 0!important;
+}
+
+
+.modal-body #loging form:last-child{
+    padding-bottom: 6%;
+}
+.modal-body #loging form:last-child{
+    padding-top: 4%!important;
+    float: right;
+}
+.modal-body #loging form:last-child div a{
+    float: right;
+    padding-bottom: 5px;
+}
+.modal-body #loging form:last-child div a:first-child{
+    margin-left: -10px;
+}
+.modal-header img{
+    margin: 0 auto!important;
+}
+
+#forgotPassword span{
+    display: inline-block;
+    padding-bottom: 20px!important;
+    padding-top: 20px!important;
+    color: red;
+}
+#forgotPassword {
+    margin: 0 auto!important;
+    width: 70%;
+    padding-bottom: 25px;
+}
+
+
+
+
+@media screen and (max-width:319px){
+    #forgotPassword {
+        width: 90%!important;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:539px){
+    .modal-content{
+        width: 100%!important;
+        margin: 0 auto!important;
+    }
+    #forgotPassword {
+        width: 90%!important;
+    }
+}
+
+@media screen and (min-width:540px) and (max-width:767px){
+    .modal-content{
+        width: 70%!important;
+        margin: 0 auto!important;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1080px){
+
+}

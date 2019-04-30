@@ -1,0 +1,86 @@
+drop database mobilesys;
+create database mobilesys;
+use mobilesys;
+
+
+
+district
+=========
+
+insert into district values(1,"Colombo","CO");
+insert into district values(2,"Gampaha","GQ");
+insert into district values(3,"Kalutara","KT");
+insert into district values(4,"Kandy","KY");
+insert into district values(5,"Matale","MT");
+insert into district values(6,"Nuwaraeliya","NW");
+insert into district values(7,"Batticaloa","BC");
+insert into district values(8,"Trincomalee","TC");
+
+insert into district values(9,"Ampara","APR");
+insert into district values(10,"Jaffna","JA");
+insert into district values(11,"Mannar","MB");
+insert into district values(12,"Mullaitivu","MP");
+insert into district values(13,"Vavuniya","VA");
+insert into district values(14,"Anuradhapura","AD");
+insert into district values(15,"Polonnaruwa","PR");
+insert into district values(16,"Kurunegala","KG");
+
+insert into district values(17,"Puttalam","PX");
+insert into district values(18,"Ratnapura","RN");
+insert into district values(19,"Kegalle","KE");
+insert into district values(20,"Galle","GL");
+insert into district values(21,"Matara","MH");
+insert into district values(22,"Hambantota","HB");
+insert into district values(23,"Badulla","BD");
+insert into district values(24,"Monaragala","MJ");
+
+
+
+
+town
+====
+
+insert into town values(1,10732,"Akarawita",1);
+insert into town values(2,10150,"Angamuwa",1);
+insert into town values(3,10700,"Avissawella",1);
+insert into town values(4,10513,"Batawala",1);
+insert into town values(5,10120,"Battaramulla",1);
+insert into town values(6,10526,"Batugampola",1);
+insert into town values(7,10522,"Bope",1);
+insert into town values(8,10290,"Boralesgamuwa",1);
+insert into town values(9,800,"Borella",1);
+insert into town values(10,10656,"Dedigamuwa",1);
+insert into town values(11,10350,"Dehiwala",1);
+insert into town values(12,10302,"Deltara",1);
+insert into town values(13,10204,"Habarakada",1);
+insert into town values(14,10524,"Handapangoda",1);
+
+
+insert into town values(15,10650,"Hanwella",1);
+insert into town values(16,10714,"Hewainna",1);
+insert into town values(17,10232,"Hiripitya",1);
+insert into town values(18,10118,"Hokandara",1);
+insert into town values(19,10200,"Homagama",1);
+insert into town values(20,10502,"Horagala",1);
+insert into town values(21,10640,"Kaduwela",1);
+insert into town values(22,10508,"Kahawala",1);
+insert into town values(23,10718,"Kalatuwawa",1);
+insert into town values(24,10306,"Madapatha",1);
+insert into town values(25,10280,"Maharagama",1);
+insert into town values(26,10115,"Malabe",1);
+insert into town values(27,10504,"Meegoda",1);
+insert into town values(28,10500,"Padukka",1);
+
+insert into town values(29,10230,"Pannipitiya",1);
+insert into town values(30,10300,"Piliyandala",1);
+insert into town values(31,10206,"Pitipana ",1);
+insert into town values(32,10320,"Polgasowita",1);
+insert into town values(33,10712,"Puwakpitiya",1);
+insert into town values(34,10654,"Ranala",1);
+insert into town values(35,10304,"Siddamulla",1);
+insert into town values(36,00200,"Slave Island",1);
+insert into town values(37,10100,"Sri Jayawardenapura",1);
+insert into town values(38,10116,"Talawatugoda",1);
+insert into town values(39,10682,"Tummodara",1);
+insert into town values(40,10680,"Waga",1);
+insert into town values(41,10511,"Watareka",1);

@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 29, 2017, 5:05:19 AM
+    Author     : Ashan Tharuka
+*/
+
+
+/*/////////////////////////////////////////////////////////////////////////*/
+#mainCategoryForm-buttonSet{
+    margin-top: 27px;
+    margin-left: 20px;
+}
+
+#spec{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#spec #id{
+  
+     width: 282px!important;
+}
+
+
+
+
+#mainCategoryForm-buttonSet button{
+    width:90px!important;
+}
+
+#pendding-table tbody tr:hover{
+      cursor: pointer;
+    background-color:  #d9edf7;
+}

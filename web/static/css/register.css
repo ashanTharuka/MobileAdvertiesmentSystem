@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 21, 2017, 3:27:07 AM
+    Author     : Ashan Tharuka
+*/
+
+
+
+
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: red;
+    cursor: inherit;
+    display: block;
+}
+input[readonly] {
+    background-color: white !important;
+    cursor: text !important;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////*/
+html{
+    padding: 0;
+    margin:0;
+}
+body{
+    background-color:#EEEEEE!important;
+}
+/*collectes-ville text-center*/
+
+
+
+
+
+#registerPageLogo img{
+    margin: 0 auto!important;
+    padding-top:30px;
+    padding-bottom:30px;
+
+}
+
+.register form .form-group {
+    text-align: center!important;
+
+}
+.register{
+    background-color: white;
+    margin: 0 auto!important;
+    width: 380px;
+    border-radius: 5px;
+    border: 1px #ddd solid;
+    padding: 40px;
+}
+.register button,input{
+    width: 100%!important;
+}
+footer{
+    margin-top: 4%;
+}
+
+@media screen and (max-width:319px){
+    .register{
+        width: 250px!important;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:539px){
+    .register{
+        width: 75%!important;
+    }
+
+}
+
+@media screen and (min-width:540px) and (max-width:767px){}
+
+@media screen and (min-width:768px) and (max-width:1080px){}
