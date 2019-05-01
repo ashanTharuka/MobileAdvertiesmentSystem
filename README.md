@@ -2,7 +2,7 @@
 
    <img src="https://github.com/ashanTharuka/MobileAdvertiesmentSystem/blob/master/web/static/img/Capture1.PNG" width="900">
    
-   This application design for 3rd semester project of IJSE panadura.
+   This application designed for 3rd semester project of IJSE panadura.
    Using this application, Users can add their mobile shops,branches and mobile prices.
    
    **Technologies and Tools**
